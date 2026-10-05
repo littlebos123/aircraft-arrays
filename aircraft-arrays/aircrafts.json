@@ -1,0 +1,227 @@
+[
+  {
+    "Make": "boeing",
+    "Model": "737-MAX",
+    "Category": "Airplane",
+    "Class": "Multi-engine",
+    "Max_Capacity": 230,
+    "path": "assets/Boeing-737-max.jpg",
+    "alt text": "Alaska Airlines white and blue Boeing 737 max flying in the blue sky"
+  },
+  {
+    "Make": "boeing",
+    "Model": "747",
+    "Category": "Airplane",
+    "Class": "Multi-engine",
+    "Max_Capacity": 660,
+    "path": "assets/Boeing-747.jpeg",
+    "alt text": "British Airways white, blue, and red Boeing 747 airplane flying in the sky with gear down"
+  },
+  {
+    "Make": "boeing",
+    "Model": "777",
+    "Category": "Airplane",
+    "Class": "Multi-engine",
+    "Max_Capacity": 550,
+    "path": "assets/Boeing-777.jpg",
+    "alt text": "Emirates white Boeing 777 airplane flying in a cloudy sky"
+  },
+  {
+    "Make": "boeing",
+    "Model": "787",
+    "Category": "Airplane",
+    "Class": "Multi-engine",
+    "Max_Capacity": 440,
+    "path": "assets/Boeing-787.jpeg",
+    "alt text": "Delta Boeing 787 airplane flying in the blue sky"
+  },
+  {
+    "Make": "Embraer",
+    "Model": "E170",
+    "Category": "Airplane",
+    "Class": "Multi-engine",
+    "Max_Capacity": 80,
+    "path": "assets/E170.jpg",
+    "alt text": "Delta Embraer E170 airplane moving on the taxiway"
+  },
+  {
+    "Make": "Embraer",
+    "Model": "E190",
+    "Category": "Airplane",
+    "Class": "Multi-engine",
+    "Max_Capacity": 114,
+    "path": "assets/E190.jpg",
+    "alt text": "Blue and white KLM Royal Dutch Airlines Embraer E190 airplane flying in the blue sky, gear down"
+  },
+  {
+    "Make": "Bombardier",
+    "Model": "CRJ900",
+    "Category": "Airplane",
+    "Class": "Multi-engine",
+    "Max_Capacity": 90,
+    "path": "assets/CRJ 900.jpg",
+    "alt text": "White Air Canada Bombardier CRJ900 airplane flying in the sky with gear down, illuminated by a setting sun"
+  },
+  {
+    "Make": "Cessna",
+    "Model": "172",
+    "Category": "Airplane",
+    "Class": "Single-engine",
+    "Max_Capacity": 4,
+    "path": "assets/Cessna 172.jpg",
+    "alt text": "White and blue striped Cessna 172 airplane flying under an overcast sky"
+  },
+  {
+    "Make": "Cessna",
+    "Model": "310",
+    "Category": "Airplane",
+    "Class": "Multi-engine",
+    "Max_Capacity": 6,
+    "path": "assets/Cessna 310.jpg",
+    "alt text": "White and blue Cessna 310 airplane flying in the blue sky with gear down"
+  },
+  {
+    "Make": "Schleicher",
+    "Model": "ASK 21",
+    "Category": "Glider",
+    "Class": "No-engine",
+    "Max_Capacity": 2,
+    "path": "assets/Schleicher_ASK_21.jpg",
+    "alt text": "White ASK 21 glider flying in a pale blue sky"
+  },
+  {
+    "Make": "Boeing",
+    "Model": "AH-64 Apache",
+    "Category": "Helicopter",
+    "Class": "Multi-engine",
+    "Max_Capacity": 2,
+    "path": "assets/AH-64.jpg",
+    "alt text": "Army green AH-64 attack helicopter flying low over rural fields"
+  },
+  {
+    "Make": "Robinson",
+    "Model": "R44",
+    "Category": "Helicopter",
+    "Class": "Single-engine",
+    "Max_Capacity": 4,
+    "path": "assets/Robinson_R44_.jpg",
+    "alt text": "Maroon-colored R44 helicopter flying in the blue sky"
+  },
+  {
+    "Make": "Airbus",
+    "Model": "A320",
+    "Category": "Airplane",
+    "Class": "Multi-engine",
+    "Max_Capacity": 194,
+    "path": "assets/Airbus_A320.jpg",
+    "alt text": "White Sharklets Airbus A320 airplane flying in a cloudy sky with gear down"
+  },
+  {
+    "Make": "Airbus",
+    "Model": "A220",
+    "Category": "Airplane",
+    "Class": "Multi-engine",
+    "Max_Capacity": 135,
+    "path": "assets/Airbus_A220.jpg",
+    "alt text": "White Sharklets Airbus 220 airplane flying in the blue sky"
+  },
+  {
+    "Make": "Pilatus",
+    "Model": "PC-12",
+    "Category": "Airplane",
+    "Class": "Multi-engine",
+    "Max_Capacity": 11,
+    "path": "assets/PC-12.jpg",
+    "alt text": "Silver Tradewind Pilatus PC-12 airplane in a clean white hangar, side doors open"
+  },
+  {
+    "Make": "Cirrus",
+    "Model": "SR22T",
+    "Category": "Airplane",
+    "Class": "Single-engine",
+    "Max_Capacity": 5,
+    "path": "assets/SR22.jpg",
+    "alt text": "Silver and white Cirrus SR22T airplane flying high over forested land"
+  },
+  {
+    "Make": "Embraer",
+    "Model": "ERJ 145",
+    "Category": "Airplane",
+    "Class": "Multi-engine",
+    "Max_Capacity": 50,
+    "path": "assets/ERJ145.jpeg",
+    "alt text": "Nameless white and blue Embraer ERJ 145 airplane on a large tarmat, illuminated by the setting sun"
+  },
+  {
+    "Make": "McDonnell Douglas",
+    "Model": "MD-88",
+    "Category": "airplane",
+    "Class": "Multi-engine",
+    "Max_Capacity": 172,
+    "path": "assets/MD-88.jpg",
+    "alt text": "White Delta MD-88 airplane initiating takeoff, lifting the wheels off the ground"
+  },
+  {
+    "Make": "Lockheed Martin",
+    "Model": "F-22 Raptor",
+    "Category": "airplane",
+    "Class": "Multi-engine",
+    "Max_Capacity": 1,
+    "path": "assets/F-22A_Raptor.jpeg",
+    "alt text": "Two army-gray F-22 airplanes flying sequentially over forested land"
+  },
+  {
+    "Make": "Lockheed Martin",
+    "Model": "F-16 Falcon",
+    "Category": "airplane",
+    "Class": "Multi-engine",
+    "Max_Capacity": 2,
+    "path": "assets/F-16.jpg",
+    "alt text": "Grey F-16 airplane flying high over a sandy desert"
+  },
+  {
+    "Make": "Airbus",
+    "Model": "A400M Atlas",
+    "Category": "airplane",
+    "Class": "Multi-engine",
+    "Max_Capacity": 2,
+    "path": "assets/A400M.jpeg",
+    "alt text": "Large army-gray Airbus A400M airplane flying overhead in an overcast sky"
+  },
+  {
+    "Make": "Sikorsky",
+    "Model": "UH-60",
+    "Category": "Helicopter",
+    "Class": "Multi-engine",
+    "Max_Capacity": 20,
+    "path": "assets/UH-60.jpg",
+    "alt text": "Army-gray UH-60 helicopter parked on the tarmat of a base in front of a control tower"
+  },
+  {
+    "Make": "Goodyear",
+    "Model": "GZ-20",
+    "Category": "airship",
+    "Class": "Multi-engine",
+    "Max_Capacity": 7,
+    "path": "assets/Goodyear_GZ-20.jpg",
+    "alt text": "Blue, white, and yellow Goodyear airship floating in a pale sky"
+  },
+  {
+    "Make": "Luftschifftechnik Zeppelin (ZLT)",
+    "Model": "Zeppelin NT",
+    "Category": "airship",
+    "Class": "Multi-engine",
+    "Max_Capacity": 14,
+    "path": "assets/zeppelin-NT.jpg",
+    "alt text": "White Zeppelin airship floating in the blue sky"
+  },
+  {
+    "Make": "Luftschiffbau Zeppelin",
+    "Model": "LZ-129",
+    "Category": "airship",
+    "Class": "Multi-engine",
+    "Max_Capacity": 72,
+    "path": "assets/LZ-129.jpeg",
+    "alt text": "Large, shiny, silver LZ-129 airship floating in a sky of gray clouds"
+  }
+]

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon_io/site.webmanifest">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aircraft gallery</title>
+
+    <meta property="og:title" content="Search your favorite airplanes." />
+
+    <link rel="stylesheet" href="https://use.typekit.net/vhs6rqi.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!-- HEADER -->
+    <container class="container">
+        <div class="box nav">
+            <h1>My Aircraft Gallery</h1>
+        </div>
+
+    </container>
+
+    <!-- NAV BAR -->
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li data-class="All" class="filter classFilter">All</li>
+            <li data-class="Single-engine" class="filter classFilter">Single-engine</li>
+            <li data-class="Multi-engine" class="filter classFilter">Multi-engine</li>
+            <li data-class="No-engine" class="filter classFilter">No engine</li>
+            
+            <!-- <select class="make" name="make">
+                <option value="" data-class="" class="filter classFilter">Class</option>
+                <option value="multi-engine" data-class="multi-engine" class="filter classFilter">Multi-engine</option>
+                <option value="single-engine" data-class="single-engine" class="filter classFilter">Single engine</option>
+                <option value="no-engine" data-class="no-engine" class="filter classFilter">No engine</option>
+            </select> -->
+
+        </ul>
+    </nav>
+    <!-- GALLERY -->
+    <container class = "container-gallery">
+             <section id="aircrafts"></section>
+             <script src="script.js"></script>            
+    </container>
+
+</body>
+</html>
