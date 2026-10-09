@@ -49,13 +49,6 @@ body {
 
 }
 
-a {
-    text-decoration: none;
-    color: var(--tertiary-color);
-    font-size: 1.4rem;
-
-}
-
 a:hover {
     color: var(--secondary-color);
     font-style: normal;
@@ -143,48 +136,6 @@ select:hover {
 
 }
 
-.header {
-    /* padding: 0 1rem; */
-}
-
-.header-crop {
-    height: 500px;
-    overflow: hidden;
-}
-
-.header-crop img {
-    width: 100%;
-}
-
-.cover-background {
-    object-fit: cover;
-    background-position: center;
-}
-
-.image-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    padding: 6rem;
-    background-color: var(--primary-color);
-    align-items: baseline;
-    text-align: center;
-    width: 100%;
-    gap: 10rem;
-
-
-}
-
-.image-grid img {
-    flex-wrap: wrap;
-    height: 20rem;
-    width: 100%;
-    object-fit: cover;
-    border: 2px solid var(--tertiary-color);
-    border-radius: 5px;
-    align-items: center;
-
-}
-
 button {
     padding: 1rem;
     color: var(--secondary-color);
@@ -196,14 +147,6 @@ button {
 
 }
 
-.inline {
-    display: inline;
-}
-
-* {
-    box-sizing: border-box;
-}
-
 .section {
     width: 1000px;
 }
@@ -211,26 +154,9 @@ button {
 .navbar {
     display: flex;
     align-items: right;
-    padding: .5rem 2.6rem;
+    padding: .5rem 4rem;
     background-color: var(--primary-color);
     width: 100%
-}
-
-.navbar img {
-margin: 1rem;
-}
-
-.nav-links {
-    display: flex;
-    list-style: none;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    gap: 3rem;
-}
-
-.nav-links li {
-    margin-left: 3rem;
 }
 
 select, ::picker(select) {
@@ -252,11 +178,6 @@ option:hover, option:focus {
   background-color: var(--secondary-color);
 }
 
-.my-container {
-    width: 600px;
-    max-width: 90%;
-}
-
 .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -272,12 +193,6 @@ option:hover, option:focus {
     grid-area: nav;
 }
 
-.main {
-    grid-area: main;
-    min-height: 100px;
-    width: 50rem;
-}
-
 .side {
     grid-area: side;
 }
@@ -288,24 +203,26 @@ option:hover, option:focus {
 }
 
 .container-gallery {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     padding: 2rem 5rem;
 
 }
 
-
+section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
 @media screen and (max-width:1200px) {
     .header-crop {
         height: 350px;
     }
 
-    .box img {
-        flex-wrap: wrap;
-        height: 40rem;
-        width: 30rem;
-        object-fit: cover;
-        border: 2px solid var(--tertiary-color);
-        border-radius: 5px;
+    section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
     }
 
 
@@ -321,8 +238,8 @@ option:hover, option:focus {
     }
 
     .navbar {
-        height: 15rem;
-        padding: 3.5rem 2.6rem;
+        height: 6rem;
+
 
     }
 
@@ -343,30 +260,13 @@ option:hover, option:focus {
         width: 100%;
     }
 
-    .image-grid {
+    section {
         grid-template-columns: 1fr;
         align-content: center;
     }
 
     .image-grid img {}
 
-}
-
-.gallery-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5rem;
-    margin: 5rem;
-
-}
-
-.gallery-grid img {
-    height: 18rem;
-    width: 18rem;
-    object-fit: cover;
-    border: 2px solid var(--tertiary-color);
-    border-radius: 5px;
-    align-items: center;
 }
 
 img {

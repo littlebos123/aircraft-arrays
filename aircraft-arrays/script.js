@@ -42,11 +42,13 @@ function makeAircraft(aircraft) {
 
     newAircraft.classList.add("card");
     newAircraft.innerHTML = `
+            
             <h2 class="aircraftMake">${aircraft.Make} ${aircraft.Model}</h2>
             <p>Category: ${aircraft.Category} |
             Class: ${aircraft.Class} |
             Max Capacity: ${aircraft.Max_Capacity}</p>
             <img class="aircraftCover" src="${aircraft.path}" alt="${aircraft.alttext}" />
+            
             `
 
             // specsList.classList.add("specs");
